@@ -2,4 +2,4 @@ tensorflow==2.5.0
 fastapi
 uvicorn
 python-multipart
-typing-extensions==3.7.4.3
+typing-extensions==4.2.0
