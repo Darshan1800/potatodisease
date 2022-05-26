@@ -11,7 +11,7 @@ import tensorflow as tf
 app = FastAPI()
 
 def read_file_as_image(data) -> np.ndarray:
-    image = np.array(Image.open(BytesIO(data)).resize(256,256))
+    image = np.array(Image.open(BytesIO(data)).resize((256,256)))
     return image
 
 @app.get('/')  # basic get view
