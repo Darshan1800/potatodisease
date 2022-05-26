@@ -1,7 +1,8 @@
 tensorflow==2.0.0
 fastapi
+typing-extensions==4.2.0
 uvicorn
-python-multipart
+python-multipart==0.0.5
 pillow
 tensorflow-serving-api==2.5.0
 matplotlib
